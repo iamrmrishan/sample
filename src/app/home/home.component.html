@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="col">
+    <!-- the item count , passed from the ts file is captured here , shuld be in parenthesis-->
+    <p> Add a list of activities {{itemCount}} </p>
+  </div>
+  <form>
+    <input type="text" class="txt"
+           name="item"
+           placeholder={{phText}}
+           [(ngModel)]= itemName
+
+    ><!-- two way data binding , once the text is updated it is updated in varible too -->
+
+    <br> <span> {{itemName}}</span>
+    <input type="submit" class="btn" [value]= btnTextAdd (click)="addItem()"> <!-- click event add item is passed as shown below-->
+  </form>
+  <div class="col">
+    <p *ngFor="let item of items "> <!-- this iterates through the array items and print evenry item-->
+      {{item}}
+    </p>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<!--here all the code relting to the arracgement of data in that window is dispyed -->
+<div>
+  heroes works!
+  <h2> {{hero.name | uppercase}}</h2>
+  <div><span> id </span> {{hero.id}}</div>
+  <div> <span> age </span> {{hero.age}} </div>
+  <div>
+    <label>
+      name : {{hero.name}}
+      <input [(ngModel)]="hero.name">
+    </label>
+
+  </div>
+</div>
+
