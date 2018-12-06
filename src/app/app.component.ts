@@ -10,4 +10,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Dinith Application';
 
-} // creted by dj
+} // creted by dinith jayabodhi
