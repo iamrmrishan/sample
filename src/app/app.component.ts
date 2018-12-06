@@ -11,3 +11,4 @@ export class AppComponent {
   title = 'Dinith Application';
 
 }
+// new added to browser 
