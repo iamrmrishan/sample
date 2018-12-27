@@ -10,5 +10,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Dinith Application';
 
-}
-// new added to browser 
+
+} // creted by dinith jayabodhi
+// new brach
+
+
