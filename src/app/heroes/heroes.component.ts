@@ -27,5 +27,5 @@ export class HeroesComponent implements OnInit {
   openHome(){
     // this.router.navigate([''])//navigate to home , since home path is '' , the array is left ''
   }
-
+// test commnt  added by  dj
 }
